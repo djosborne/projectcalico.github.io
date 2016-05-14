@@ -26,7 +26,6 @@ gems:      [jekyll-paginate]
 
 # Conversion
 markdown:    kramdown
-highlighter: pygments
 lsi:         false
 excerpt_separator: "\n\n"
 
