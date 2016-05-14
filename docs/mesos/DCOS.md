@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -143,9 +143,9 @@ running, you can start launching tasks with your
 Mesos cluster.
 
 Get started by checking out our user guides for
-the [Docker Containerizer](./UsageGuideDockerContainerizer.md)
-or the [Unified Containerizer](./UsageGuideUnifiedContainerizer.md),
+the [Docker Containerizer](./UsageGuideDockerContainerizer)
+or the [Unified Containerizer](./UsageGuideUnifiedContainerizer),
 or to learn more about the differences between the
 two containerizers, check out our [Mesos README](./README).
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/mesos/DCOS.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/mesos/DCOS?pixel)](https://github.com/igrigorik/ga-beacon)

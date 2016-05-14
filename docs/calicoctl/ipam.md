@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -15,7 +15,7 @@ This section describes the `calicoctl ipam` commands.
 This command allows an interface into Calico's IP address management to release 
 IP addresses from endpoints and view additional information about assigned IPs.
 
-Read the [calicoctl command line interface user reference](../calicoctl.md) for a full list of calicoctl commands.
+Read the [calicoctl command line interface user reference](../calicoctl) for a full list of calicoctl commands.
 
 ## Displaying the help text for 'calicoctl ipam' commands
 
@@ -97,4 +97,4 @@ IP 192.168.1.2 is not currently assigned
 $ calicoctl ipam info 192.168.1.1
 No attributes defined for 192.168.1.1
 ```
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calicoctl/ipam.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calicoctl/ipam?pixel)](https://github.com/igrigorik/ga-beacon)

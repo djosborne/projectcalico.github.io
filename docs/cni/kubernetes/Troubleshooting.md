@@ -1,13 +1,15 @@
+---
+---
 <!--- master only -->
 > ![warning](../../images/warning.png) This document applies to the HEAD of the calico-docker source tree.
 >
-> View the calico-docker documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-docker documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-docker documentation for release **release**.
 <!--- end of master only -->
 
 # Troubleshooting
-This article contains Kubernetes specific troubleshooting advice for Calico.  See also the [main Calico troubleshooting](../../Troubleshooting.md) guide.
+This article contains Kubernetes specific troubleshooting advice for Calico.  See also the [main Calico troubleshooting](../../Troubleshooting) guide.
 
 ## Viewing Logs
 The Calico CNI plugin emits logs to the `/var/log/calico/cni/` directory.  All CNI plugin logs for a node will be emitted to
@@ -21,4 +23,4 @@ It may also be useful in some situations to check the kubelet logs for a given n
 you can do this via `journalctl`.
 
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/cni/kubernetes/Troubleshooting.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/cni/kubernetes/Troubleshooting?pixel)](https://github.com/igrigorik/ga-beacon)

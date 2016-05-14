@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -85,7 +85,7 @@ To change the log level, edit the node_filesystem/etc/service/confd/run and
 rebuild the calico-node image.
 
 For more information on the allowed levels, see the
-[documentation](https://github.com/kelseyhightower/confd/blob/master/docs/configuration-guide.md)
+[documentation](https://github.com/kelseyhightower/confd/blob/master/docs/configuration-guide)
 
 
 ## Docker network and IPAM driver
@@ -99,5 +99,5 @@ container.  e.g.
     docker logs calico-libnetwork
 
 For details on how to change the log levels for the plugin, please view the
-[libnetwork-plugin documentation](https://github.com/projectcalico/libnetwork-plugin/blob/master/index.md).
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/logging.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[libnetwork-plugin documentation](https://github.com/projectcalico/libnetwork-plugin/blob/master/index).
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/logging?pixel)](https://github.com/igrigorik/ga-beacon)

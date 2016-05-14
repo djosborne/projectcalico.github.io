@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](./images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -55,7 +55,7 @@ ETCD_AUTHORITY value to point at the correct instance of Etcd.
 > here are standard values for a non-SSL version of Etcd, but you can use this
 > template to define your SSL values if desired.  For more details about running
 > Calico with Etcd using SSL/TLS, check out the
-> [Etcd Secure Cluster guide](EtcdSecureCluster.md).
+> [Etcd Secure Cluster guide](EtcdSecureCluster).
 
 ### Systemd Service Example
 
@@ -155,4 +155,4 @@ the `[Unit]` section may be different (such `docker-engine.service`) depending
 on how you've installed Docker.
 Be sure to check this before starting the service.
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/CalicoAsService.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/CalicoAsService?pixel)](https://github.com/igrigorik/ga-beacon)

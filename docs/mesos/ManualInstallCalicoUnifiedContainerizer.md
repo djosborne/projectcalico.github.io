@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -12,15 +12,15 @@
 > This guide explains how to add Calico networking to a Mesos Agent.
 Specifically, we will add the Calico plugin to perform networking
 for the Unified Containerizer.
-- If you're looking for information on installing Calico with the Docker Containerizer, see [Docker Containerizer Manual Install Guide](./ManualInstallCalicoDockerContainerizer.md)
-- If you're not sure the difference between the Unified and Docker Containerizers, see  [Mesos' information on Containerizers](http://mesos.apache.org/documentation/latest/containerizer/) and [Our Readme on Calico's integration for each](./index.md).
+- If you're looking for information on installing Calico with the Docker Containerizer, see [Docker Containerizer Manual Install Guide](./ManualInstallCalicoDockerContainerizer)
+- If you're not sure the difference between the Unified and Docker Containerizers, see  [Mesos' information on Containerizers](http://mesos.apache.org/documentation/latest/containerizer/) and [Our Readme on Calico's integration for each](./index).
 
 
 ## Prerequisites
 ### Mesos-Agent with Mesos and Netmodules installed
 This guide will focus on only the Calico components of a
 calico-mesos-agent. You must have an agent with net-modules
-activated. See the [Manual Net-Modules install Guide](net-modules/index.md)
+activated. See the [Manual Net-Modules install Guide](net-modules/index)
 and [Mesos' Slave Setup documentation](https://open.mesosphere.com/getting-started/install/#slave-setup).
 
 ### Docker
@@ -31,7 +31,7 @@ for information on how to get Docker installed.
 
 ### Etcd
 To run Calico, you'll need a running etcd store.
-See the [Cluser Preparation guide](MesosClusterPreparation.md#etcd)
+See the [Cluser Preparation guide](MesosClusterPreparation#etcd)
 for information on how to quickly get one running.
 
 ## Install Calico-Mesos Components
@@ -89,7 +89,7 @@ Ensure you've created the `/calico` directory first (`mkdir -p /calico`).
 
 ## Next steps
 To test your cluster, follow our guide on [Using Calico-Mesos Unified Containerizer]
-(UsageGuideUnifiedContainerizer.md) and start launching
+(UsageGuideUnifiedContainerizer) and start launching
 tasks networked with Calico.
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/mesos/ManualInstallCalicoUnifiedContainerizer.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/mesos/ManualInstallCalicoUnifiedContainerizer?pixel)](https://github.com/igrigorik/ga-beacon)

@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -17,7 +17,7 @@ for use with the Docker Containerizer in Mesos.
 
 You will need to configure your Docker daemon on each agent to point at
 the etcd cluster store, as seen in our [Manual Setup guide]
-(../calico-with-docker/docker-network-plugin/ManualSetup.md#docker).
+(../calico-with-docker/docker-network-plugin/ManualSetup#docker).
 
 ## Install and Run Calico
 It is very easy to install Calico to use with the
@@ -35,7 +35,7 @@ Now, you will need run the `calico/node` and
 
 For production deployments, we recommend running the two
 containers as services. Visit our guide on [running Calico
-as a Service](../CalicoAsService.md) to learn how to do this.
+as a Service](../CalicoAsService) to learn how to do this.
 
 For test environments that you would like to get up and running
 quickly, you can run the `calicoctl node --libnetwork`:
@@ -69,8 +69,8 @@ systemctl restart mesos-slave.service
 ```
 
 That's it! You're ready to launch Calico-networked tasks. Visit
-our [Docker Contaerinizer Usage Guide](./UsageGuideDockerContainerizer.md)
+our [Docker Contaerinizer Usage Guide](./UsageGuideDockerContainerizer)
 to get started.
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/mesos/ManualInstallCalicoDockerContainerizer.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/mesos/ManualInstallCalicoDockerContainerizer?pixel)](https://github.com/igrigorik/ga-beacon)
 

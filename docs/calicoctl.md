@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -57,17 +57,17 @@ See 'calicoctl <command> --help' to read about a specific subcommand.
 Details on the `calicoctl` commands are described in the documents linked below
 organized by top level command.
 
--  [calicoctl status](calicoctl/status.md)
--  [calicoctl node](calicoctl/node.md)
--  [calicoctl container](calicoctl/container.md)
--  [calicoctl profile](calicoctl/profile.md)
--  [calicoctl endpoint](calicoctl/endpoint.md)
--  [calicoctl pool](calicoctl/pool.md)
--  [calicoctl bgp](calicoctl/bgp.md)
--  [calicoctl ipam](calicoctl/ipam.md)
--  [calicoctl checksystem](calicoctl/checksystem.md)
--  [calicoctl diags](calicoctl/diags.md)
--  [calicoctl version](calicoctl/version.md)
--  [calicoctl config](calicoctl/config.md)
+-  [calicoctl status](calicoctl/status)
+-  [calicoctl node](calicoctl/node)
+-  [calicoctl container](calicoctl/container)
+-  [calicoctl profile](calicoctl/profile)
+-  [calicoctl endpoint](calicoctl/endpoint)
+-  [calicoctl pool](calicoctl/pool)
+-  [calicoctl bgp](calicoctl/bgp)
+-  [calicoctl ipam](calicoctl/ipam)
+-  [calicoctl checksystem](calicoctl/checksystem)
+-  [calicoctl diags](calicoctl/diags)
+-  [calicoctl version](calicoctl/version)
+-  [calicoctl config](calicoctl/config)
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calicoctl.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calicoctl?pixel)](https://github.com/igrigorik/ga-beacon)

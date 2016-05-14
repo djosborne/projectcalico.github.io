@@ -1,7 +1,7 @@
 <!--- master only -->
 > ![warning](../../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -25,14 +25,14 @@ Follow the instructions in one of the tutorials below to set up a virtualized
 environment using Vagrant or a cloud service - be sure to follow the
 appropriate instructions for using _Calico without Docker networking_.
 
-- [Vagrant install with CoreOS](../VagrantCoreOS.md)
-- [Vagrant install with Ubuntu](../VagrantUbuntu.md)
-- [Amazon Web Services (AWS)](../AWS.md)
-- [Google Compute Engine (GCE)](../GCE.md)
-- [DigitalOcean](../DigitalOcean.md)
+- [Vagrant install with CoreOS](../VagrantCoreOS)
+- [Vagrant install with Ubuntu](../VagrantUbuntu)
+- [Amazon Web Services (AWS)](../AWS)
+- [Google Compute Engine (GCE)](../GCE)
+- [DigitalOcean](../DigitalOcean)
 
 Altenatively, you can manually configure your hosts.
-- [Manual setup](ManualSetup.md)
+- [Manual setup](ManualSetup)
 
 If you have everything set up properly you should have `calicoctl` in your
 `$PATH`, and two hosts called `calico-01` and `calico-02`.
@@ -173,22 +173,22 @@ For example:
 
     calicoctl node --ip=172.17.8.101 --ip6=fd80:24e2:f998:72d7::1
 
-See the [IPv6 worked example](IPv6.md) for a worked example.
+See the [IPv6 worked example](IPv6) for a worked example.
 
 ## Advanced network policy
 
 For details about advanced policy options read the
-[Advanced Network Policy tutorial](../../AdvancedNetworkPolicy.md).
+[Advanced Network Policy tutorial](../../AdvancedNetworkPolicy).
 
 ## Make a container reachable from the Host-Interface (Internet)
 
-You cannot simply use `-p`on `docker run` to expose ports. We have a working example on how to [expose a container port to the internet](../../ExposePortsToInternet.md)
+You cannot simply use `-p`on `docker run` to expose ports. We have a working example on how to [expose a container port to the internet](../../ExposePortsToInternet)
 
 ## Further reading
 
 For details on configuring Calico for different network topologies and to
 learn more about Calico under-the-covers please refer to the
-[Further Reading](../../../index.md#further-reading) section on the main
+[Further Reading](../../../index#further-reading) section on the main
 documentation README.
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calico-with-docker/without-docker-networking/index.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calico-with-docker/without-docker-networking/index?pixel)](https://github.com/igrigorik/ga-beacon)

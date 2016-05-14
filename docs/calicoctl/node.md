@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -19,10 +19,10 @@ Calico networking.
 
 The `calicoctl node bgp` commands can be used to configure BGP peering for the
 node.  For an overview of BGP configuration, read the
-[BGP tutorial](../bgp.md), which covers in more detail all available BGP
+[BGP tutorial](../bgp), which covers in more detail all available BGP
 related commands, including use cases.
 
-Read the [calicoctl command line interface user reference](../calicoctl.md) 
+Read the [calicoctl command line interface user reference](../calicoctl) 
 for a full list of calicoctl commands.
 
 ## Displaying the help text for 'calicoctl node' commands
@@ -195,7 +195,7 @@ docker network create -d calico net1
 docker network create -d calico --ipam-driver calico net2
 ```
 
-Read our [Calico as a Docker network plugin tutorial](../calico-with-docker/docker-network-plugin/index.md)
+Read our [Calico as a Docker network plugin tutorial](../calico-with-docker/docker-network-plugin/index)
 for more details.
 
 ### calicoctl node stop 
@@ -295,8 +295,8 @@ If peering with another Calico compute host (or indeed most BGP
 implementations) you will need to configure the peering on both devices in 
 order to enable it.
 
-Use [`calicoctl node bgp peer show`](./bgp.md) to display current list of 
-configured peers, and [`calicoctl status`](./status.md) to see all BGP peers 
+Use [`calicoctl node bgp peer show`](./bgp) to display current list of 
+configured peers, and [`calicoctl status`](./status) to see all BGP peers 
 of this node and their status.
 
 
@@ -320,9 +320,9 @@ $ calicoctl node bgp peer add 172.25.0.2 as 65511
 This command allows users to remove specific BGP peers from this Calico node.
 
 NOTE: This command only removes peers configured with `calicoctl node bgp peer 
-add`. It does not remove global peers ([`calicoctl bgp peer add`](./bgp.md)) 
+add`. It does not remove global peers ([`calicoctl bgp peer add`](./bgp)) 
 or peerings with other Calico nodes if the node mesh is on 
-([calicoctl bgp node-mesh](./bgp.md)).
+([calicoctl bgp node-mesh](./bgp)).
 
 This command must be run on the specific Calico node that you are configuring.
 
@@ -346,9 +346,9 @@ This command allows users to view the node-specific BGP peers configured on
 this node.
 
 NOTE: This command does not show global BGP peers ([calicoctl bgp peer show]
-(./bgp.md)) or peerings to other Calico nodes when the node-mesh is on 
-([calicoctl bgp node-mesh](./bgp.md)). To show all BGP peers of this node and 
-their status, use [`calicoctl status`](./status.md).
+(./bgp)) or peerings to other Calico nodes when the node-mesh is on 
+([calicoctl bgp node-mesh](./bgp)). To show all BGP peers of this node and 
+their status, use [`calicoctl status`](./status).
 
 This command must be run on individual Calico nodes.
 
@@ -373,4 +373,4 @@ $ calicoctl node bgp peer show --ipv4
 +-----------------------------+--------+
 
 ```
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calicoctl/node.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calicoctl/node?pixel)](https://github.com/igrigorik/ga-beacon)

@@ -1,7 +1,7 @@
 <!--- master only -->
 > ![warning](../../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -36,7 +36,7 @@ between the nodes.  This may installed on one or both of the two servers for
 the worked example.  See the [etcd documentation][etcd] for details on setting
 up a cluster.
 
-> NOTE: If you are running etcd with SSL/TLS, see the [Etcd Secure Cluster](../../EtcdSecureCluster.md)
+> NOTE: If you are running etcd with SSL/TLS, see the [Etcd Secure Cluster](../../EtcdSecureCluster)
 > page.
 
 ### Docker permissions
@@ -85,9 +85,9 @@ the current etcd version if etcd is available.
 ## Continue with the worked example
 
 With the environment set up, you can run through the remainder of the worked
-example in the [Calico without Docker networking tutorial](index.md).
+example in the [Calico without Docker networking tutorial](index).
 
 [etcd]: https://coreos.com/etcd/docs/latest/
 [calico-releases]: https://github.com/projectcalico/calico-containers/releases/
 [docker]: http://www.docker.com
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calico-with-docker/without-docker-networking/ManualSetup.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calico-with-docker/without-docker-networking/ManualSetup?pixel)](https://github.com/igrigorik/ga-beacon)

@@ -3,15 +3,15 @@
 <!--- master only -->
 > ![warning](images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
 
 # Expose Container Port to Host Interface / Internet
 
-In the [Calico without Docker networking tutorial](calico-with-docker/without-docker-networking/index.md)
-or the [Calico as a Docker network plugin tutorial](calico-with-docker/docker-network-plugin/index.md)
+In the [Calico without Docker networking tutorial](calico-with-docker/without-docker-networking/index)
+or the [Calico as a Docker network plugin tutorial](calico-with-docker/docker-network-plugin/index)
 we created containers and assigned endpoints (a container interface) to them. This is used for Container-
 To-Container communication.
 
@@ -54,6 +54,6 @@ iptables -t nat -A OUTPUT -p tcp -o lo --dport 80 -j DNAT --to-destination 192.1
 Now all traffic to your host interface on port 80 will be forwarded to the container IP 192.168.0.1.
 
 For additional information on managing policy for your containers, you can read
-the [Advanced Network Policy Guide](AdvancedNetworkPolicy.md).
+the [Advanced Network Policy Guide](AdvancedNetworkPolicy).
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/ExposePortsToInternet.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/ExposePortsToInternet?pixel)](https://github.com/igrigorik/ga-beacon)

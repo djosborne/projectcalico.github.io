@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -12,7 +12,7 @@
 
 This sections describes the `calicoctl status` commands.
 
-Read the [calicoctl command line interface user reference](../calicoctl.md) 
+Read the [calicoctl command line interface user reference](../calicoctl) 
 for a full list of calicoctl commands.
 
 ## Displaying the help text for 'calicoctl status' commands
@@ -44,7 +44,7 @@ This command shows:
    - Peer address: Host address used as BGP peer IP to route to Calico workloads
    - Peer type: How the two BGP peers are connected, such as through a 
    `node-to-node mesh`, a direct peer between two nodes as `node-specific`, 
-   or as a `global` BGP peer (See the [`calicoctl bgp` reference](./bgp.md) for 
+   or as a `global` BGP peer (See the [`calicoctl bgp` reference](./bgp) for 
    more info)
    - State: Peer instance state, `up` or `down`
    - Since: How long the peer has been up
@@ -75,4 +75,4 @@ IPv6 BGP status
 No IPv6 address configured.
 
 ```
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calicoctl/status.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calicoctl/status?pixel)](https://github.com/igrigorik/ga-beacon)

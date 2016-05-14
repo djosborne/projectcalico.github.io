@@ -1,7 +1,7 @@
 <!--- master only -->
 > ![warning](../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -101,8 +101,8 @@ the networking option that you chose for the cloud config in step (2).
 > In the worked example, be sure to follow the additional instructions for
 configuring `ipip` and `nat-outgoing`. 
 
-- [Calico as a Docker network plugin walkthrough](docker-network-plugin/index.md) 
-- [Calico without Docker networking walkthrough](without-docker-networking/index.md)  
+- [Calico as a Docker network plugin walkthrough](docker-network-plugin/index) 
+- [Calico without Docker networking walkthrough](without-docker-networking/index)  
 
 ## (Optional) Enabling traffic from the internet to containers
 Services running on a Calico host's containers in GCE can be exposed to the internet.  Since the containers have IP 
@@ -168,4 +168,4 @@ curl http://<host public ip>:80
 
 [coreos-gce]: https://coreos.com/docs/running-coreos/cloud-providers/google-compute-engine/
 [gcloud-instructions]: https://cloud.google.com/compute/docs/gcloud-compute/
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calico-with-docker/GCE.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calico-with-docker/GCE?pixel)](https://github.com/igrigorik/ga-beacon)

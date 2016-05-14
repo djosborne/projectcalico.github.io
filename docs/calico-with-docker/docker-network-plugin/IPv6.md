@@ -1,7 +1,9 @@
+---
+---
 <!--- master only -->
 > ![warning](../../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -9,7 +11,7 @@
 # Calico IPv6 networking as a Docker network plugin (Optional)
 
 This tutorial is a continuation of the main 
-[Calico as a Docker network plugin tutorial](index.md).
+[Calico as a Docker network plugin tutorial](index).
 
 The worked example below focuses on a non-cloud environment.
 
@@ -162,4 +164,4 @@ To see the list of networks, use
 
     docker network ls
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calico-with-docker/docker-network-plugin/IPv6.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calico-with-docker/docker-network-plugin/IPv6?pixel)](https://github.com/igrigorik/ga-beacon)

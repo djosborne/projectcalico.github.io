@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -55,15 +55,15 @@ Then, run:
 ## Next steps
 
 With your cluster deployed, you have everything in place to run the
-[Calico Mesos Stars Demo](stars-demo/index.md), an interesting network
+[Calico Mesos Stars Demo](stars-demo/index), an interesting network
 policy visualizer demo that shows how Calico can secure your cluster.
 (Note that this demo is currently worked specifically for use with the
 Docker Containerizer.)
 
 Alternatively, you can follow one of our usage guides to learn how to
 launch Calico-networked tasks with either the [Docker Containerizer]
-(./UsageGuideDockerContainerizer.md) or the [Unified Containerizer]
-(UsageGuideUnifiedContainerizer.md).
+(./UsageGuideDockerContainerizer) or the [Unified Containerizer]
+(UsageGuideUnifiedContainerizer).
 
 ## Virtual Machines Info
 
@@ -116,4 +116,4 @@ existing VMs will remain installed and ready.
 [virtualbox]: https://www.virtualbox.org/
 [vagrant]: https://www.vagrantup.com/
 [git]: https://www.git-scm.com/
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/mesos/Vagrant.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/mesos/Vagrant?pixel)](https://github.com/igrigorik/ga-beacon)

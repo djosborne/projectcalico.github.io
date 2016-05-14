@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.13.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.13.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -104,7 +104,7 @@ options.
 
 The full suite of system tests takes approximately 30 minutes to complete. 
 If you are developing code for Calico Docker and are regularly running
-the system tests, you can run a [subset of the tests](./Building.md#running-a-subset-of-system-tests) instead.
+the system tests, you can run a [subset of the tests](./Building#running-a-subset-of-system-tests) instead.
 
 Both STs start an etcd server bound to a local IP address (automatically determined).  If you have
 multiple local IP addresses and wish to explicitly select an IP address to bind to, set the environment variable
@@ -140,4 +140,4 @@ To run the single no-orchestrator, mainline multi-host test:
 
     sudo ST_TO_RUN=tests/st/no_orchestrator/test_mainline_multi_host.py make st
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/Building.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/Building?pixel)](https://github.com/igrigorik/ga-beacon)

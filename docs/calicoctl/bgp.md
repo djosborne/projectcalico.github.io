@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -20,12 +20,12 @@ These commands can be used to manage the global BGP configuration, including:
 
 Calico node-specific BGP configuration, such as having BGP peers specific to a 
 particular Calico node, is configured using the `calicoctl node` commands. You 
-can read about these commands in the [`calicoctl node` guide](./node.md).
+can read about these commands in the [`calicoctl node` guide](./node).
 
-For an overview of BGP configuration, read the [BGP tutorial](../bgp.md), which
+For an overview of BGP configuration, read the [BGP tutorial](../bgp), which
 covers in more detail all available BGP related commands, including use cases.
 
-Read the [calicoctl command line interface user reference](../calicoctl.md) 
+Read the [calicoctl command line interface user reference](../calicoctl) 
 for a full list of calicoctl commands.
 
 ## Displaying the help text for 'calicoctl bgp' commands
@@ -122,7 +122,7 @@ BGP peer removed from global configuration
 This command displays the current list of configured global BGP peers.
 
 This command does not display the connection or protocol status of the peers.
-If you want to view that information, use the [`calicoctl status`](status.md)
+If you want to view that information, use the [`calicoctl status`](status)
 command.
 
 The command can be run on any Calico node.
@@ -199,7 +199,7 @@ off
 This command is used to view and set the default AS number used by Calico 
 nodes.
 
-When a Calico node is started (see [`calicoctl node`](node.md) commands),
+When a Calico node is started (see [`calicoctl node`](node) commands),
 the default AS number is used to configure the BGP peerings if one has not 
 been explicitly specified in the `calicoctl node` command.
 
@@ -228,4 +228,4 @@ $ calicoctl bgp default-node-as 64512
 $ calicoctl bgp default-node-as
 64512
 ```
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calicoctl/bgp.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calicoctl/bgp?pixel)](https://github.com/igrigorik/ga-beacon)

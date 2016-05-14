@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -15,7 +15,7 @@
 
 This sections describes the `calicoctl profile` commands.
 
-Read the [calicoctl command line interface user guide](../calicoctl.md) for a 
+Read the [calicoctl command line interface user guide](../calicoctl) for a 
 full list of calicoctl commands.
 
 ## Displaying the help text for 'calicoctl profile' commands
@@ -135,7 +135,7 @@ networking policy for Calico endpoints.
 When you create a new profile with this command, it includes default rules and 
 tags that make it act like a traditional security group: endpoints in the group 
 can communicate freely. However, you may modify the rules and tags to suit your 
-needs. See [AdvancedNetworkPolicy.md] for more discussion of profiles, rules 
+needs. See [AdvancedNetworkPolicy] for more discussion of profiles, rules 
 and tags.
 
 This command can be run on any Calico node.
@@ -162,7 +162,7 @@ If you try to remove a profile that is still associated with endpoints, the
 command will fail and a warning message will be printed.  To remove the profile 
 anyway, you can run the command with the `--no-check` flag to remove the profile 
 without checking dependencies, or you can run the 
-[`calicoctl container`](./container.md) command that removes the profile 
+[`calicoctl container`](./container) command that removes the profile 
 association from a container for each container associated with the profile. 
 Note that Felix remove the iptables security rules for a profile when a profile 
 is removed. All traffic to endpoints still associated with a deleted profile 
@@ -546,4 +546,4 @@ Inbound rules:
 Outbound rules:
    1 allow
 ```
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calicoctl/profile.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calicoctl/profile?pixel)](https://github.com/igrigorik/ga-beacon)

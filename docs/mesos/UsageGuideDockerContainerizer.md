@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -20,7 +20,7 @@ containerizer.  This guide covers:
 ## Prerequisites
 
 You can easily configure a mesos cluster by running through
-the [Calico Mesos Vagrant guide](./Vagrant.md). If you do this, you can skip
+the [Calico Mesos Vagrant guide](./Vagrant). If you do this, you can skip
 directly to [Launching Containers](#launching-containers).
 
 To utilize the Docker libnetwork plugin feature of Docker, it is necessary to 
@@ -48,7 +48,7 @@ Each machine in the cluster must have access to these services.
 #### Run Calico
 
 You will need Calico running on each of your agents.  Follow our [Manual Install
-Calico with Docker Containerizer guide](./ManualInstallCalicoDockerContainerizer.md)
+Calico with Docker Containerizer guide](./ManualInstallCalicoDockerContainerizer)
 to do this.
 
 ## Creating a Docker network and managing network policy
@@ -92,7 +92,7 @@ traffic only from containers attached the "databases" network.
 
 For more information no how to configure your Calico profiles, check out
 the section on [Configuring the network policy in our Advanced Policy guide]
-(../calico-with-docker/docker-network-plugin/AdvancedPolicy.md#configuring-the-network-policy).
+(../calico-with-docker/docker-network-plugin/AdvancedPolicy#configuring-the-network-policy).
 
 ## Launching Containers
 
@@ -171,4 +171,4 @@ Remember that this task will disappear and reappear every 30 seconds.
 You should see the IP address change each time the task starts.
 
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/mesos/UsageGuideDockerContainerizer.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/mesos/UsageGuideDockerContainerizer?pixel)](https://github.com/igrigorik/ga-beacon)

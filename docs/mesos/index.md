@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -53,26 +53,26 @@ To build a new Mesos cluster with Calico networking, try one of the
 following guides:
 
 #### Quick Start a Sample Cluster:
-- [Centos Vagrant guide](Vagrant.md) - set up a Calico Mesos cluster with
+- [Centos Vagrant guide](Vagrant) - set up a Calico Mesos cluster with
   one Mesos Master and two Mesos Agents.
   - This is the easiest way to set up a cluster with all of the required
   services running to launch tasks with either the Unified Containerizer or
   Docker Containerizer.
 
 #### Installation guides:
-- [DC/OS Calico Install Guide](./DCOS.md) -
+- [DC/OS Calico Install Guide](./DCOS) -
   install Calico using Mesos' DC/OS web interface.
-- [Manual Install Calico Unified Containerizer Guide](ManualInstallCalicoUnifiedContainerizer.md) -
+- [Manual Install Calico Unified Containerizer Guide](ManualInstallCalicoUnifiedContainerizer) -
   install Calico for use with the Unified Containerizer.
-- [Manual Install Calico Docker Containerizer Guide](ManualInstallCalicoDockerContainerizer.md) -
+- [Manual Install Calico Docker Containerizer Guide](ManualInstallCalicoDockerContainerizer) -
   install Calico for use with the Docker Containerizer.
-- [Mesos Cluster Preparation Guide](MesosClusterPreparation.md) - installation
+- [Mesos Cluster Preparation Guide](MesosClusterPreparation) - installation
   instructions for running required services of a Calico Mesos cluster.
 
 #### Demonstration guides:
-- [Docker Containerizer Usage Guide](UsageGuideDockerContainerizer.md) - configure
+- [Docker Containerizer Usage Guide](UsageGuideDockerContainerizer) - configure
   and launch tasks with Calico using the Docker Containerizer.
-- [Unified Containerizer Usage Guide](UsageGuideUnifiedContainerizer.md) - configure
+- [Unified Containerizer Usage Guide](UsageGuideUnifiedContainerizer) - configure
   and launch tasks with Calico using the Unified Containerizer.
 - [Stars demo](stars-demo/) - use the Docker Containerizer to show
   a network policy visualization of how a Calico cluster is configured.
@@ -83,4 +83,4 @@ Get in touch with us directly in our `#mesos` channel on
 [Slack](https://calicousers.slack.com)
 ([sign up here](https://calicousers-slackin.herokuapp.com/))!
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/mesos/index.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/mesos/index?pixel)](https://github.com/igrigorik/ga-beacon)

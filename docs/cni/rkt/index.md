@@ -1,7 +1,7 @@
 <!--- master only -->
 > ![warning](../../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -146,7 +146,7 @@ Normal [systemd commands][systemd-run] can then be used to get the status of the
 
 
 We now have a `busybox` container running on the network `frontend` with an IP address of `192.168.0.0`
-rkt also creates a second network called `default-restricted`. This is used for communication with the rkt metadata service running on the host and is covered in the [rkt documentation](https://github.com/coreos/rkt/blob/master/Documentation/networking/overview.md#the-default-restricted-network)
+rkt also creates a second network called `default-restricted`. This is used for communication with the rkt metadata service running on the host and is covered in the [rkt documentation](https://github.com/coreos/rkt/blob/master/Documentation/networking/overview#the-default-restricted-network)
 
 ### On calico-02
 
@@ -271,15 +271,15 @@ If you want to start again from the beginning, then run the following commands o
 
 ## Further reading
 
-For more information on managing the `calico/node` container please refer to the [rkt and systemd](systemd/index.md) documentation.
+For more information on managing the `calico/node` container please refer to the [rkt and systemd](systemd/index) documentation.
 
 For details on configuring Calico for different network topologies and to
 learn more about Calico under-the-covers please refer to the
-[Further Reading](../../../index.md#further-reading) section on the main
+[Further Reading](../../../index#further-reading) section on the main
 documentation README.
 
-[systemd-run]: https://github.com/coreos/rkt/blob/master/Documentation/using-rkt-with-systemd.md#systemd-run
+[systemd-run]: https://github.com/coreos/rkt/blob/master/Documentation/using-rkt-with-systemd#systemd-run
 [virtualbox]: https://www.virtualbox.org/
 [vagrant]: https://www.vagrantup.com/downloads.html
 [git]: http://git-scm.com/
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/cni/rkt/index.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/cni/rkt/index?pixel)](https://github.com/igrigorik/ga-beacon)

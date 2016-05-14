@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -18,7 +18,7 @@ This sections describes the `calicoctl pool` commands.
 These commands allow users to define and view IP address pools from which endpoint 
 IP addresses are allocated.  Users can add, remove, update, or view the IP pools.
 
-Read the [calicoctl command line interface user reference](../calicoctl.md) for a 
+Read the [calicoctl command line interface user reference](../calicoctl) for a 
 full list of calicoctl commands.
 
 ## Displaying the help text for 'calicoctl pool' commands
@@ -174,4 +174,4 @@ $ calicoctl pool show
 | fd80:24e2:f998:72d6::/64 |         |
 +--------------------------+---------+
 ```
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calicoctl/pool.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calicoctl/pool?pixel)](https://github.com/igrigorik/ga-beacon)

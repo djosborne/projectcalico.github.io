@@ -1,7 +1,7 @@
 <!--- master only -->
 > ![warning](../../images/warning.png) This document applies to the HEAD of the calico-docker source tree.
 >
-> View the calico-docker documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-docker documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-docker documentation for release **release**.
 <!--- end of master only -->
@@ -14,10 +14,10 @@ Calico supports the v1alpha1 network policy API for Kubernetes.
 * A Kubernetes v1.1+ deployment using the [Calico CNI plugin v1.3.0](https://github.com/projectcalico/calico-cni/releases/latest) or greater.
 * You must running `calico/node:v0.18.0` or greater on each Kubernetes node.
 * You must be using the iptables kube-proxy in your deployment. All of the Calico getting started guides configure the kube-proxy in this way.
-* You must have enabled `ThirdPartyResource` objects in your Kubernetes apiserver, as described [here](https://github.com/caseydavenport/kubernetes/blob/network-policy/docs/admin/network-policy.md#enabling-network-policy).
+* You must have enabled `ThirdPartyResource` objects in your Kubernetes apiserver, as described [here](https://github.com/caseydavenport/kubernetes/blob/network-policy/docs/admin/network-policy#enabling-network-policy).
 
 ## Behavior
-Calico implements the behavior of the Kubernetes [v1alpha1 network policy API](https://github.com/caseydavenport/kubernetes/blob/network-policy/docs/admin/network-policy.md#network-policy-in-kubernetes).
+Calico implements the behavior of the Kubernetes [v1alpha1 network policy API](https://github.com/caseydavenport/kubernetes/blob/network-policy/docs/admin/network-policy#network-policy-in-kubernetes).
 
 ## Enabling v1alpha1 policy support
 
@@ -38,7 +38,7 @@ $ cat /etc/cni/net.d/10-calico.conf
     }
 }
 ```
-> More configuration options can be found [here](https://github.com/projectcalico/calico-cni/blob/master/configuration.md).
+> More configuration options can be found [here](https://github.com/projectcalico/calico-cni/blob/master/configuration).
 
 This will configure label-based policy on Kuberetes pods. 
 
@@ -78,9 +78,9 @@ calico-policy-agent-k8s-master   1/1       Running   0          1m
 ```
 
 ## Next Steps
-- Install the [policy tool](https://github.com/projectcalico/k8s-policy/blob/master/policy_tool/index.md) for easy management of NetworkPolicy objects.
+- Install the [policy tool](https://github.com/projectcalico/k8s-policy/blob/master/policy_tool/index) for easy management of NetworkPolicy objects.
 
 - Once you have enabled network policy on your cluster and configured Calico to use the Kubernetes network
-policy API, you can deploy our [Kubernetes policy example application](stars-demo/index.md).
+policy API, you can deploy our [Kubernetes policy example application](stars-demo/index).
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/cni/kubernetes/NetworkPolicy.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/cni/kubernetes/NetworkPolicy?pixel)](https://github.com/igrigorik/ga-beacon)

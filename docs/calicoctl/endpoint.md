@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -16,7 +16,7 @@ In Calico an endpoint is a virtual interface from a workload (container or
 virtual machine) into the Calico network, and workloads may have more than one 
 endpoint. Calico applies network policy to endpoints.
 
-Read the [calicoctl command line interface user reference](../calicoctl.md) for a full list of calicoctl commands.
+Read the [calicoctl command line interface user reference](../calicoctl) for a full list of calicoctl commands.
 
 ## Displaying the help text for 'calicoctl endpoint' commands
 
@@ -144,7 +144,7 @@ If you are controlling Calico network policy for Docker containers using the
 default networking (i.e. not libnetwork) it is more common to use the  
 `calicoctl container <CONTAINER> profile (set|append|remove) <PROFILES>` 
 command, which can be found in the 
-[`calicoctl container` reference documentation](./container.md).
+[`calicoctl container` reference documentation](./container).
 
 For more information about policy profiles, check out the section on 
 [security profile data in the etcd data model documentation](http://docs.projectcalico.org/en/latest/etcd-data-model.html#security-profile-data).
@@ -216,4 +216,4 @@ $ calicoctl endpoint d79123c4784511e5bd1a080027f532f6 profile show
 | WEB  |
 +------+
 ```
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calicoctl/endpoint.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calicoctl/endpoint?pixel)](https://github.com/igrigorik/ga-beacon)

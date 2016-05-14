@@ -1,7 +1,9 @@
+---
+---
 <!--- master only -->
 > ![warning](../../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -15,14 +17,14 @@ The goal of this demo is to provide a meaningful visualization of how Calico
 manages security between services in a Mesos cluster.
 
 For a deeper look at how to configure Calico with the Docker containerizer,
-check out [Calico's Docker Containerizer guide](../UsageGuideDockerContainerizer.md).
+check out [Calico's Docker Containerizer guide](../UsageGuideDockerContainerizer).
 
 ## Prerequisites
 This demo requires a Mesos cluster with Calico-libnetwork running,
 along with a few additional components.
 
 To simplify the setup, we have created a Vagrant file to quickly
-deploy a master and two agents. Follow the [Vagrant Mesos Guide](../Vagrant.md)
+deploy a master and two agents. Follow the [Vagrant Mesos Guide](../Vagrant)
 to get started.
 
 Your cluster should contain the following components.
@@ -249,4 +251,4 @@ http://my.marathon.app
 Hooray! You've configured policy with Calico to allow specific networks to accept
 traffic from other networks in your cluster!
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/mesos/stars-demo/index.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/mesos/stars-demo/index?pixel)](https://github.com/igrigorik/ga-beacon)

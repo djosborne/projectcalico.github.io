@@ -1,7 +1,9 @@
+---
+---
 <!--- master only -->
 > ![warning](../../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -19,7 +21,7 @@ tutorial, we will do the following:
 
 This tutorial assumes that your client and each node in your cluster 
 have `calicoctl`, etcd, and Docker 1.9 or greater installed in your `$PATH`. 
-See our [Manual Setup tutorial](ManualSetup.md) 
+See our [Manual Setup tutorial](ManualSetup) 
 for instructions on getting this properly set up.
 
 To make things simpler, let's store some commonly used values as environment 
@@ -164,4 +166,4 @@ B. These pings should fail.
 
     $ export WORKLOADB_IP=`docker -H $MANAGER_IP:$SWARM_PORT inspect --format "{{ .NetworkSettings.Networks.net2.IPAddress }}" workload-B`
     $ docker -H $MANAGER_IP:$SWARM_PORT exec workload-A ping -c 4 $WORKLOADB_IP
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calico-with-docker/docker-network-plugin/CalicoSwarm.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calico-with-docker/docker-network-plugin/CalicoSwarm?pixel)](https://github.com/igrigorik/ga-beacon)

@@ -1,7 +1,7 @@
 <!--- master only -->
 > ![warning](../../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -130,8 +130,8 @@ calicoctl endpoint show --detailed
 
 ### 2.3 Next Steps
 Try deploying an application to the cluster.
-- [Calico Policy Demo](stars-demo/index.md)
-- [Kubernetes guestbook](vagrant-coreos/guestbook.md)
+- [Calico Policy Demo](stars-demo/index)
+- [Kubernetes guestbook](vagrant-coreos/guestbook)
 
 You can also take a look at the various Kubernetes [example applications][examples].
 
@@ -143,4 +143,4 @@ You can also take a look at the various Kubernetes [example applications][exampl
 [git]: http://git-scm.com/
 [examples]: https://github.com/kubernetes/kubernetes/tree/master/examples
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/cni/kubernetes/VagrantCoreOS.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/cni/kubernetes/VagrantCoreOS?pixel)](https://github.com/igrigorik/ga-beacon)

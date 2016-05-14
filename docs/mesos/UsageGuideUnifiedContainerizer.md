@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -29,11 +29,11 @@ Your cluster must have the following components installed:
 
 You can start a cluster in one of the following ways:
 
-- [Vagrant](./Vagrant.md) - easily set up a cluster with all base requirements.
+- [Vagrant](./Vagrant) - easily set up a cluster with all base requirements.
 - Manual Install:
-	- [Mesos Cluster Preparation guide](MesosClusterPreparation.md) - install
+	- [Mesos Cluster Preparation guide](MesosClusterPreparation) - install
 	  required components for a Calico-Mesos Cluster.
-	- [Install Calico](ManualInstallCalicoUnifiedContainerizer.md) - install Calico
+	- [Install Calico](ManualInstallCalicoUnifiedContainerizer) - install Calico
       on each agent for use with the Unified Containerizer.
 
 
@@ -44,7 +44,7 @@ launching tasks. Marathon has introduced limited support for this in v0.14.0.
 
 ### Launching Marathon
 If you have not installed Marathon, you can run Marathon directly by running
-the commands [here](MesosClusterPreparation.md#marathon), or you can quickly
+the commands [here](MesosClusterPreparation#marathon), or you can quickly
 start it as a Docker container like the following:
 
 ```
@@ -113,5 +113,5 @@ task list, along with a Calico-assigned IP address just below the Task
 ID!
 
 [calico-slack]: https://calicousers-slackin.herokuapp.com/
-[marathon-ip-per-task-doc]: https://github.com/mesosphere/marathon/blob/v0.14.0/docs/docs/ip-per-task.md
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/mesos/UsageGuideUnifiedContainerizer.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[marathon-ip-per-task-doc]: https://github.com/mesosphere/marathon/blob/v0.14.0/docs/docs/ip-per-task
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/mesos/UsageGuideUnifiedContainerizer?pixel)](https://github.com/igrigorik/ga-beacon)

@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -18,7 +18,7 @@ This sections describes the `calicoctl container` commands.
 
 These commands can be used to manage Calico networking for Docker containers.
 
-Read the [calicoctl command line interface user reference](../calicoctl.md) for a 
+Read the [calicoctl command line interface user reference](../calicoctl) for a 
 full list of calicoctl commands.
 
 ## Displaying the help text for 'calicoctl container' commands
@@ -59,7 +59,7 @@ address.
 
 To configure networking policy on a container after it has been added to 
 Calico, create a profile using `calicoctl profile add` (see the 
-[`calicoctl profile` guide](./profile.md)) and set the profile on the container 
+[`calicoctl profile` guide](./profile)) and set the profile on the container 
 using the `calicoctl container <CONTAINER> profile add <PROFILE>` command (see 
 below).
 
@@ -204,7 +204,7 @@ IP 192.10.0.3 removed from test-container
 
 This command allows you to view information about the endpoint associated with
 a container.  The endpoint ID is used by the 
-[`calicoctl endpoint`](endpoint.md) commands for manipulating and viewing
+[`calicoctl endpoint`](endpoint) commands for manipulating and viewing
 endpoint configuration.
 
 This command must be run on the specific Calico node that hosts the container.
@@ -227,4 +227,4 @@ $ calicoctl container test-container endpoint show
 |  calico  |      docker     | 0d01b3f020fcadfd0090fcbbbbef9658acb26f71c1cb812827afafc625c5ae1a | d79123c4784511e5bd1a080027f532f6 | 192.168.1.4/32 | d6:43:59:f7:93:d3 |          | active |
 +----------+-----------------+------------------------------------------------------------------+----------------------------------+----------------+-------------------+----------+--------+
 ```
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calicoctl/container.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calicoctl/container?pixel)](https://github.com/igrigorik/ga-beacon)

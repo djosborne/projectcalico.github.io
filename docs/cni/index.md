@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -13,8 +13,8 @@ Calico provides a CNI plugin for integration with orchestrators which use the [a
 
 ### Supported Orchestrators
 We've confirmed that the Calico CNI plugin is compatible with the following orchestrators that use CNI:
-- Kubernetes - [documentation](kubernetes/index.md)
-- rkt - [documentation](rkt/index.md)
+- Kubernetes - [documentation](kubernetes/index)
+- rkt - [documentation](rkt/index)
 
 ### Supported IPAM plugins
 We've confirmed that the Calico CNI plugin is compatible with the following IPAM plugins:
@@ -24,4 +24,4 @@ The Calico CNI plugin should be compatible with any CNI IPAM plugin which return
 
 [appc-repo]: https://github.com/appc/cni
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/cni/index.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/cni/index?pixel)](https://github.com/igrigorik/ga-beacon)

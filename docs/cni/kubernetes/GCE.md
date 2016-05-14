@@ -1,7 +1,7 @@
 <!--- master only -->
 > ![warning](../../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -168,15 +168,15 @@ You should now be able to access the guestbook application from a browser at `ht
 
 Now that you have a verified working Kubernetes cluster with Calico, you can continue [deploying applications on Kubernetes][examples].
 
-You can also take a look at how you can use Calico [network policy on Kubernetes](NetworkPolicy.md).
+You can also take a look at how you can use Calico [network policy on Kubernetes](NetworkPolicy).
 
 
 [calico-cni]: https://github.com/projectcalico/calico-cni
 [coreos-gce]: https://coreos.com/docs/running-coreos/cloud-providers/google-compute-engine/
 [gcloud-instructions]: https://cloud.google.com/compute/docs/gcloud-compute/
-[guestbook]: https://github.com/kubernetes/kubernetes/blob/master/examples/guestbook/index.md
+[guestbook]: https://github.com/kubernetes/kubernetes/blob/master/examples/guestbook/index
 [loadbalancers]: http://kubernetes.io/v1.0/docs/user-guide/services.html#type-loadbalancer
 [examples]: https://github.com/kubernetes/kubernetes/tree/master/examples
 
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/cni/kubernetes/GCE.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/cni/kubernetes/GCE?pixel)](https://github.com/igrigorik/ga-beacon)

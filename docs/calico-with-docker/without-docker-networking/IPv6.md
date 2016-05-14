@@ -1,7 +1,7 @@
 <!--- master only -->
 > ![warning](../../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -9,7 +9,7 @@
 # Calico IPv6 networking without Docker networking (Optional)
 
 This tutorial is a continuation of the main 
-[Calico without Docker networking tutorial](index.md).
+[Calico without Docker networking tutorial](index).
 
 The worked example below focuses on a non-cloud environment.
   
@@ -105,4 +105,4 @@ Now you can ping between the two containers using their IPv6 addresses.
 On calico-02:
 
     docker exec workload-G ping6 -c 4 fd80:24e2:f998:72d6::1
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calico-with-docker/without-docker-networking/IPv6.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calico-with-docker/without-docker-networking/IPv6?pixel)](https://github.com/igrigorik/ga-beacon)

@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -78,6 +78,6 @@ to improve performance with the handling of watch prefixes
 
 For a detailed look at how each component works when adding Docker containers 
 to Calico networking, check out the [Lifecycle of a Docker Default Container]
-(./DockerContainerLifecycle.md) page.
+(./DockerContainerLifecycle) page.
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/Components.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/Components?pixel)](https://github.com/igrigorik/ga-beacon)

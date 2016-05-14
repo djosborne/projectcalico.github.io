@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -36,7 +36,7 @@ This respository contains the following:
   details on how the STs (`make st`) and UTs (`make ut`) are run using the 
   `calico/test` image.
 - Documentation for using Calico in a containerized environment.  See 
-  main [index.md](../index.md), and [`docs` directory](../docs).
+  main [index](../index), and [`docs` directory](../docs).
 - Release scripts used to validate our documentation and to cut a new branch
   for a specific release.  See [`release-scripts` directory](../release-scripts)
   for details.
@@ -83,4 +83,4 @@ integrations.
    Docker image (available on DockerHub).  When Calico node is started with the
    `--libnetwork` flag, a separate container is launched running the driver.
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/RepoStructure.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/RepoStructure?pixel)](https://github.com/igrigorik/ga-beacon)

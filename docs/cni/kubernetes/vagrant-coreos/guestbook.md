@@ -1,7 +1,7 @@
 # Deploying the guestbook application
 The following steps describe how to deploy the Kubernetes [guestbook application][guestbook].
 
-This guide assumes you have a Kubernetes cluster as configured by the [Vagrant CoreOS guide](../VagrantCoreOS.md)
+This guide assumes you have a Kubernetes cluster as configured by the [Vagrant CoreOS guide](../VagrantCoreOS)
 
 1) Log on to the master node.
 ```
@@ -33,7 +33,7 @@ The service is available internally via a `10.100.0.X` IP address on port `80`, 
 To access the guestbook application frontend, visit `http://172.18.18.101:30001` in your favorite browser.  Because we used a NodePort service to expose it outside the cluster, it should also be available at `http://172.18.18.102:30001`.
 
 
-[guestbook]: https://github.com/kubernetes/kubernetes/blob/master/examples/guestbook/index.md
+[guestbook]: https://github.com/kubernetes/kubernetes/blob/master/examples/guestbook/index
 
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/cni/kubernetes/vagrant-coreos/guestbook.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/cni/kubernetes/vagrant-coreos/guestbook?pixel)](https://github.com/igrigorik/ga-beacon)

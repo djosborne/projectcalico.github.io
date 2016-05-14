@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -33,7 +33,7 @@ The Calico network defaults to AS number 64511, which is in the private range,
 and therefore will not conflict with anything else on the public internet. 
 However, if your organization is already using AS number 64511, you should
 change the Calico cluster to use a different private AS number.  See the 
-[BGP Configuration tutorial](bgp.md) for how to do this.
+[BGP Configuration tutorial](bgp) for how to do this.
 
 Then, on one of your Calico-enabled hosts, configure the session to your
 router.  Let's say your router's IP address is 192.20.30.40 and it is in AS
@@ -43,7 +43,7 @@ number 64567:
 
 You only need to do this on one Calico-enabled host; you have configured a
 global BGP peer and every host in your cluster will attempt to peer with it
-(see the [BGP Configuration tutorial](bgp.md) for more detail).
+(see the [BGP Configuration tutorial](bgp) for more detail).
 
 Lastly, you'll need to configure your router.  Consult your router's
 configuration guide for the exact steps, but generally speaking, you'll need to
@@ -57,4 +57,4 @@ detailed datacenter networking recommendations are given in the main
 [Project Calico documentation](http://docs.projectcalico.org/en/latest/index.html).
 We'd also encourage you to [get in touch](http://www.projectcalico.org/contact/)
 to discuss your environment.
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/ExternalConnectivity.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/ExternalConnectivity?pixel)](https://github.com/igrigorik/ga-beacon)

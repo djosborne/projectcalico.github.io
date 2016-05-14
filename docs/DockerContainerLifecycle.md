@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -59,7 +59,7 @@ The calicoctl utility:
 Inside the calico-node container:
 
 -  Four key processes are started:  `felix`, `confd` and `bird` and `bird6` 
-   (see [calico/node container components](Components.md) for more details on 
+   (see [calico/node container components](Components) for more details on 
    these).  Since we are not using IPv6, bird6 is not mentioned any further.
 -  `felix` is waiting for endpoint data to be configured in etcd.
 -  `confd` is monitoring the BGP data in etcd.
@@ -177,7 +177,7 @@ on the container endpoints.
 > containers with a single interface managed using calicoctl, we treat a 
 > container and endpoint as the same thing.  For more complicated scenarios, 
 > calicoctl provides commands for managing actual endpoints (see the 
-> [`calicoctl endpoint` reference guide](calicoctl/endpoint.md) for usage and 
+> [`calicoctl endpoint` reference guide](calicoctl/endpoint) for usage and 
 > examples).
 
 ### System Response
@@ -202,4 +202,4 @@ other.
 
 ![calicoctl container set profile](images/lifecycle/set_profile.png)
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/DockerContainerLifecycle.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/DockerContainerLifecycle?pixel)](https://github.com/igrigorik/ga-beacon)

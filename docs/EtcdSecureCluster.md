@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](./images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -88,7 +88,7 @@ Here's a list of commands that must be run as root:
 - `calicoctl container ip add`
 - `calicoctl container ip remove`
 
-See the [calicoctl reference guide](./calicoctl.md) for details on specific 
+See the [calicoctl reference guide](./calicoctl) for details on specific 
 calicoctl commands.
 
 ### Calico as a Docker network plugin
@@ -105,4 +105,4 @@ command line options to the Docker daemon.
      --cluster-store-opt kv.certfile=/path/to/cert.crt
      --cluster-store-opt kv.keyfile=/path/to/key.pem
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/EtcdSecureCluster.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/EtcdSecureCluster?pixel)](https://github.com/igrigorik/ga-beacon)

@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -15,7 +15,7 @@ This sections describes the `calicoctl config` commands.
 The `calicoctl config` command allows users to view or modify 
 low-level component configurations for Felix and BGP.
 
-Read the [calicoctl command line interface user reference](../calicoctl.md) for a full list of calicoctl commands.
+Read the [calicoctl command line interface user reference](../calicoctl) for a full list of calicoctl commands.
 
 ## Displaying the help text for 'calicoctl config' commands
 
@@ -70,7 +70,7 @@ Currently, you can modify the following:
 `loglevel` represents the logging level of messages sent to the Felix log file. 
 All messages with a lower priority than the `loglevel` value will be filtered 
 out. All Calico logs can be found `/var/log/calico`, unless a different log 
-directory was specified in the [`calicoctl node`](./node.md) command.
+directory was specified in the [`calicoctl node`](./node) command.
 
 
 This command can be run on any Calico node and affects every Felix in the 
@@ -121,7 +121,7 @@ Currently, you can modify the following:
 `loglevel` represents the logging level of messages sent to the BIRD BGP daemon 
 log file. All messages with a lower priority than the `loglevel` value will be 
 filtered out. All Calico logs can be found `/var/log/calico`, unless a different log 
-directory was specified in the [`calicoctl node`](./node.md) command.
+directory was specified in the [`calicoctl node`](./node) command.
 
 This command can be run on any Calico node and affects all of the BIRD processes 
 in the cluster.
@@ -173,7 +173,7 @@ Currently, you can modify the following:
 `loglevel` represents the logging level of messages sent to the BIRD BGP daemon 
 log file. All messages with a lower priority than the `loglevel` value will be 
 filtered out. All Calico logs can be found `/var/log/calico`, unless a different log 
-directory was specified in the [`calicoctl node`](./node.md) command.
+directory was specified in the [`calicoctl node`](./node) command.
 
 This command must be run on the specific Calico node that you want to configure.
 
@@ -208,4 +208,4 @@ $ calicoctl config node bgp loglevel debug
 $ calicoctl config node bgp loglevel --remove
 Value removed
 ```
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calicoctl/config.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/calicoctl/config?pixel)](https://github.com/igrigorik/ga-beacon)
