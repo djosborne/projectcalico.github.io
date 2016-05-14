@@ -1,7 +1,7 @@
 <!--- master only -->
 > ![warning](../../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/README.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -174,7 +174,7 @@ You can also take a look at how you can use Calico [network policy on Kubernetes
 [calico-cni]: https://github.com/projectcalico/calico-cni
 [coreos-gce]: https://coreos.com/docs/running-coreos/cloud-providers/google-compute-engine/
 [gcloud-instructions]: https://cloud.google.com/compute/docs/gcloud-compute/
-[guestbook]: https://github.com/kubernetes/kubernetes/blob/master/examples/guestbook/README.md
+[guestbook]: https://github.com/kubernetes/kubernetes/blob/master/examples/guestbook/index.md
 [loadbalancers]: http://kubernetes.io/v1.0/docs/user-guide/services.html#type-loadbalancer
 [examples]: https://github.com/kubernetes/kubernetes/tree/master/examples
 

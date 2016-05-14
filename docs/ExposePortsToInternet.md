@@ -3,15 +3,15 @@
 <!--- master only -->
 > ![warning](images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/README.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
 
 # Expose Container Port to Host Interface / Internet
 
-In the [Calico without Docker networking tutorial](calico-with-docker/without-docker-networking/README.md)
-or the [Calico as a Docker network plugin tutorial](calico-with-docker/docker-network-plugin/README.md)
+In the [Calico without Docker networking tutorial](calico-with-docker/without-docker-networking/index.md)
+or the [Calico as a Docker network plugin tutorial](calico-with-docker/docker-network-plugin/index.md)
 we created containers and assigned endpoints (a container interface) to them. This is used for Container-
 To-Container communication.
 

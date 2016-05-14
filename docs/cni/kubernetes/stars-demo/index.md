@@ -11,7 +11,7 @@ This guide includes the [files necessary for this example](.).
 vagrant ssh k8s-master
 ```
 
-2) Download and configure the [policy tool](https://github.com/projectcalico/k8s-policy/blob/master/policy_tool/README.md) for NetworkPolicy management.
+2) Download and configure the [policy tool](https://github.com/projectcalico/k8s-policy/blob/master/policy_tool/index.md) for NetworkPolicy management.
 ```
 # Install the tool.
 wget https://github.com/projectcalico/k8s-policy/releases/download/v0.1.3/policy
@@ -83,4 +83,4 @@ The client can now access the frontend, but not the backend.  Neither the fronte
 can initiate connections to the client.  The frontend can still access the backend.
 
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/cni/kubernetes/stars-demo/README.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/cni/kubernetes/stars-demo/index.md?pixel)](https://github.com/igrigorik/ga-beacon)

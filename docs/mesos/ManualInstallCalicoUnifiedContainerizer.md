@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/README.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -13,14 +13,14 @@
 Specifically, we will add the Calico plugin to perform networking
 for the Unified Containerizer.
 - If you're looking for information on installing Calico with the Docker Containerizer, see [Docker Containerizer Manual Install Guide](./ManualInstallCalicoDockerContainerizer.md)
-- If you're not sure the difference between the Unified and Docker Containerizers, see  [Mesos' information on Containerizers](http://mesos.apache.org/documentation/latest/containerizer/) and [Our Readme on Calico's integration for each](./README.md).
+- If you're not sure the difference between the Unified and Docker Containerizers, see  [Mesos' information on Containerizers](http://mesos.apache.org/documentation/latest/containerizer/) and [Our Readme on Calico's integration for each](./index.md).
 
 
 ## Prerequisites
 ### Mesos-Agent with Mesos and Netmodules installed
 This guide will focus on only the Calico components of a
 calico-mesos-agent. You must have an agent with net-modules
-activated. See the [Manual Net-Modules install Guide](net-modules/README.md)
+activated. See the [Manual Net-Modules install Guide](net-modules/index.md)
 and [Mesos' Slave Setup documentation](https://open.mesosphere.com/getting-started/install/#slave-setup).
 
 ### Docker

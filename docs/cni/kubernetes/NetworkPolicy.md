@@ -1,7 +1,7 @@
 <!--- master only -->
 > ![warning](../../images/warning.png) This document applies to the HEAD of the calico-docker source tree.
 >
-> View the calico-docker documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/README.md).
+> View the calico-docker documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
 <!--- else
 > You are viewing the calico-docker documentation for release **release**.
 <!--- end of master only -->
@@ -78,9 +78,9 @@ calico-policy-agent-k8s-master   1/1       Running   0          1m
 ```
 
 ## Next Steps
-- Install the [policy tool](https://github.com/projectcalico/k8s-policy/blob/master/policy_tool/README.md) for easy management of NetworkPolicy objects.
+- Install the [policy tool](https://github.com/projectcalico/k8s-policy/blob/master/policy_tool/index.md) for easy management of NetworkPolicy objects.
 
 - Once you have enabled network policy on your cluster and configured Calico to use the Kubernetes network
-policy API, you can deploy our [Kubernetes policy example application](stars-demo/README.md).
+policy API, you can deploy our [Kubernetes policy example application](stars-demo/index.md).
 
 [![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/cni/kubernetes/NetworkPolicy.md?pixel)](https://github.com/igrigorik/ga-beacon)

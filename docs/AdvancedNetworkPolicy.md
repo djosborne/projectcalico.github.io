@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/README.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -13,9 +13,9 @@
 Calico endpoints are assigned their network policy by configuring them with a 
 policy profile.  
 
-In the [Calico without Docker networking tutorial](calico-with-docker/without-docker-networking/README.md)
+In the [Calico without Docker networking tutorial](calico-with-docker/without-docker-networking/index.md)
 we created profiles and assigned endpoints (a container interface) to them.
-In the [Calico as a Docker network plugin tutorial](calico-with-docker/docker-network-plugin/README.md),
+In the [Calico as a Docker network plugin tutorial](calico-with-docker/docker-network-plugin/index.md),
 the profiles are created under-the-covers as part of the Docker network
 creation (available natively in Docker 1.9 and above).
 

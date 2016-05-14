@@ -3,7 +3,7 @@
 <!--- master only -->
 > ![warning](../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/README.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -55,7 +55,7 @@ Then, run:
 ## Next steps
 
 With your cluster deployed, you have everything in place to run the
-[Calico Mesos Stars Demo](stars-demo/README.md), an interesting network
+[Calico Mesos Stars Demo](stars-demo/index.md), an interesting network
 policy visualizer demo that shows how Calico can secure your cluster.
 (Note that this demo is currently worked specifically for use with the
 Docker Containerizer.)

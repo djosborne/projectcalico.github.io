@@ -1,7 +1,7 @@
 <!--- master only -->
 > ![warning](../../images/warning.png) This document applies to the HEAD of the calico-containers source tree.
 >
-> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/README.md).
+> View the calico-containers documentation for the latest release [here](https://github.com/projectcalico/calico-containers/blob/v0.19.0/index.md).
 <!--- else
 > You are viewing the calico-containers documentation for release **release**.
 <!--- end of master only -->
@@ -271,15 +271,15 @@ If you want to start again from the beginning, then run the following commands o
 
 ## Further reading
 
-For more information on managing the `calico/node` container please refer to the [rkt and systemd](systemd/README.md) documentation.
+For more information on managing the `calico/node` container please refer to the [rkt and systemd](systemd/index.md) documentation.
 
 For details on configuring Calico for different network topologies and to
 learn more about Calico under-the-covers please refer to the
-[Further Reading](../../../README.md#further-reading) section on the main
+[Further Reading](../../../index.md#further-reading) section on the main
 documentation README.
 
 [systemd-run]: https://github.com/coreos/rkt/blob/master/Documentation/using-rkt-with-systemd.md#systemd-run
 [virtualbox]: https://www.virtualbox.org/
 [vagrant]: https://www.vagrantup.com/downloads.html
 [git]: http://git-scm.com/
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/cni/rkt/README.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/docs/cni/rkt/index.md?pixel)](https://github.com/igrigorik/ga-beacon)

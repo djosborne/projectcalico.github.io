@@ -66,11 +66,11 @@ using Calico.  In most cases we provide worked examples using manual setup on
 your own servers, a quick set-up in a virtualized environment using Vagrant and
 a number of cloud services.
 
-- [Calico as a Docker network plugin](calico-with-docker/docker-network-plugin/README.md)
-- [Calico without Docker networking](calico-with-docker/without-docker-networking/README.md)
-- [Calico with rkt](/cni/rkt/README.md)
-- [Calico with Kubernetes](cni/kubernetes/README.md)
-- [Calico with Mesos](mesos/README.md)
+- [Calico as a Docker network plugin](calico-with-docker/docker-network-plugin/index.md)
+- [Calico without Docker networking](calico-with-docker/without-docker-networking/index.md)
+- [Calico with rkt](/cni/rkt/index.md)
+- [Calico with Kubernetes](cni/kubernetes/index.md)
+- [Calico with Mesos](mesos/index.md)
   - [Calico with DC/OS](mesos/DCOS.md)
 - [Calico with Docker Swarm](calico-with-docker/docker-network-plugin/CalicoSwarm.md)
 
@@ -113,4 +113,4 @@ the material listed below.
 
 If you are interested in contributing, please review our [contributing guidelines](CONTRIBUTING.md).
 
-[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/README.md?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://calico-ga-beacon.appspot.com/UA-52125893-3/calico-containers/index.md?pixel)](https://github.com/igrigorik/ga-beacon)
