@@ -1,5 +1,7 @@
 ---
 ---
+---
+---
 <!--- master only -->
 [![Build Status](https://semaphoreci.com/api/v1/projects/9d7d365d-19cb-4699-8c84-b76da25ae271/473490/shields_badge.svg)](https://semaphoreci.com/calico/calico-docker--5)
 [![CircleCI branch](https://img.shields.io/circleci/project/projectcalico/calico-containers/master.svg?label=calicoctl)](https://circleci.com/gh/projectcalico/calico-containers/tree/master)
@@ -64,13 +66,13 @@ using Calico.  In most cases we provide worked examples using manual setup on
 your own servers, a quick set-up in a virtualized environment using Vagrant and
 a number of cloud services.
 
-- [Calico as a Docker network plugin](docs/calico-with-docker/docker-network-plugin/README.md)
-- [Calico without Docker networking](docs/calico-with-docker/without-docker-networking/README.md)
-- [Calico with rkt](docs/cni/rkt/README.md)
-- [Calico with Kubernetes](docs/cni/kubernetes/README.md)
-- [Calico with Mesos](docs/mesos/README.md)
-  - [Calico with DC/OS](docs/mesos/DCOS.md)
-- [Calico with Docker Swarm](docs/calico-with-docker/docker-network-plugin/CalicoSwarm.md)
+- [Calico as a Docker network plugin](calico-with-docker/docker-network-plugin/README.md)
+- [Calico without Docker networking](calico-with-docker/without-docker-networking/README.md)
+- [Calico with rkt](/cni/rkt/README.md)
+- [Calico with Kubernetes](cni/kubernetes/README.md)
+- [Calico with Mesos](mesos/README.md)
+  - [Calico with DC/OS](mesos/DCOS.md)
+- [Calico with Docker Swarm](calico-with-docker/docker-network-plugin/CalicoSwarm.md)
 
 ## Further reading
 
@@ -78,36 +80,36 @@ You can read more about Calico networking in a containerized environment in
 the material listed below.
 
   - **Learn how to configure Calico features in a deployment**
-    - [`calicoctl` Reference Guide](docs/calicoctl.md) explains how the
+    - [`calicoctl` Reference Guide](calicoctl.md) explains how the
       `calicoctl` command line tool can be used to manage your Calico cluster
-    - [Logging](docs/logging.md) describes how to set logging
+    - [Logging](logging.md) describes how to set logging
       levels and choose where Calico logs should be stored
-    - [Advanced Network Policy](docs/AdvancedNetworkPolicy.md) describes how
+    - [Advanced Network Policy](AdvancedNetworkPolicy.md) describes how
       to configure security policy between Calico endpoints and other networks
-    - [BGP Configuration](docs/bgp.md) explains how to manage the BGP peering
+    - [BGP Configuration](bgp.md) explains how to manage the BGP peering
       for integration of a Calico cluster in your network
-    - [External Connectivity](docs/ExternalConnectivity.md) describes how to
+    - [External Connectivity](ExternalConnectivity.md) describes how to
       configure external connectivity for hosts on their own Layer 2 segment
-    - [Running Calico Node Containers as Services](docs/CalicoAsService.md)
+    - [Running Calico Node Containers as Services](CalicoAsService.md)
       describes how to run the `calico/node` and `calico/node-libnetwork` images
       as system processes or services.  This guide includes example config for
       systemd services.
   - **Learn how Calico works under the covers**
-    - [Anatomy of a calico-node container](docs/Components.md) to understand
+    - [Anatomy of a calico-node container](Components.md) to understand
       the key components that make up the `calico/node` service.
-    - [etcd Directory Structure](docs/etcdStructure.md) for viewing how Calico
+    - [etcd Directory Structure](etcdStructure.md) for viewing how Calico
       stores data for network and endpoint configurations
-    - [Lifecycle of a container](docs/DockerContainerLifecycle.md)
+    - [Lifecycle of a container](DockerContainerLifecycle.md)
       shows you what happens using Calico without Docker networking.
   - **Learn how to get involved with Calico builds and lower level integrations**
-    - [Calico Repositories](docs/RepoStructure.md) to see the
+    - [Calico Repositories](RepoStructure.md) to see the
       collection of Calico related respoitories that collectively provide the
       networking, tools, and orchestration integrations.
-    - [Building and testing calico-containers images](docs/Building.md) to build a Calico setup on your local
+    - [Building and testing calico-containers images](Building.md) to build a Calico setup on your local
       machine for development and testing
   - **FAQ and Troubleshooting**
-    - [FAQ](docs/FAQ.md)
-    - [Troubleshooting](docs/Troubleshooting.md)
+    - [FAQ](FAQ.md)
+    - [Troubleshooting](Troubleshooting.md)
 
 If you are interested in contributing, please review our [contributing guidelines](CONTRIBUTING.md).
 

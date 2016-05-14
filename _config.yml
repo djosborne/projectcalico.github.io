@@ -42,7 +42,12 @@ paginate_path: /page:num
 timezone:      null
 
 quiet:    false
-defaults: []
+defaults:
+  -
+    scope:
+      path: "docs"
+    values:
+      layout: markdownwithnav
 
 # Markdown Processors
 rdiscount:
